@@ -34,6 +34,7 @@
             this.txtFilename = new System.Windows.Forms.TextBox();
             this.cboSheet = new System.Windows.Forms.ComboBox();
             this.btnBrowse = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,11 +91,21 @@
             this.btnBrowse.UseVisualStyleBackColor = true;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(79, 381);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "coba lagi";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 450);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.cboSheet);
             this.Controls.Add(this.txtFilename);
@@ -119,5 +130,6 @@
         private System.Windows.Forms.TextBox txtFilename;
         private System.Windows.Forms.ComboBox cboSheet;
         private System.Windows.Forms.Button btnBrowse;
+        private System.Windows.Forms.Label label3;
     }
 }
